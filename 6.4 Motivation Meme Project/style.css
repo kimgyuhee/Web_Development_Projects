@@ -1,0 +1,25 @@
+html {
+    background-color: black;
+}
+
+.main {
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 100px;
+    color: white;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    border: 5px solid white;
+}
+
+.text1 {
+    font-size: 3rem;
+    margin: 20px;
+}
+
+.text2 {
+    margin: 20px;
+}
