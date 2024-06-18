@@ -118,3 +118,11 @@ SELECT *
 FROM visited_countries
 JOIN users
 ON users.id = user_id;
+
+
+-- my pr --
+SELECT first_name, last_name, sum(mark) as 합계, TRUNC(AVG(MARK), 2) AS 평균
+FROM student
+JOIN homework_submission
+ON student.id = homework_submission.student_id
+group by student.id;

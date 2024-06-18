@@ -15,6 +15,7 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+
 .ag-canvas {
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -129,6 +130,8 @@ button {
   -moz-transition: all 0.1s;
   -webkit-transition: all 0.1s;
 }
+
+
 .tab-view > label i {
   display: block;
   float: left;
